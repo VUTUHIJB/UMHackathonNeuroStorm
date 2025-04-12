@@ -1,0 +1,97 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Good day", "Hey", "Hi there"],
+      "responses": [
+        "Hello partner! Ready to explore your business insights?",
+        "Hey there! How can I help you grow your Grab store today?"
+      ]
+    },
+    {
+      "tag": "business_summary",
+      "patterns": ["Show me the business overview", "Give me the performance summary", "Business summary please"],
+      "responses": [
+        "Here’s your business summary: sales trends, best items, and customer sentiment so far.",
+        "Sure! Let me pull up your business performance dashboard for a quick overview."
+      ]
+    },
+    {
+      "tag": "top_products",
+      "patterns": ["What are my top selling items?", "Best performing menu", "Top products this week"],
+      "responses": [
+        "Your top performers this week are [Product A], [Product B], and [Product C]!",
+        "Looks like these items are selling the most right now — keep it up!"
+      ]
+    },
+    {
+      "tag": "customer_feedback_summary",
+      "patterns": ["Customer sentiment summary", "What are customers saying?", "Give me customer feedback overview"],
+      "responses": [
+        "Here’s a breakdown: 68% positive, 22% neutral, and 10% negative feedback from customers.",
+        "Most customers are loving your service! Want to dive deeper into what they’re saying?"
+      ]
+    },
+    {
+      "tag": "negative_feedback_details",
+      "patterns": ["Show me what went wrong", "Negative reviews", "Any complaints from customers?"],
+      "responses": [
+        "Here are the top concerns raised by your customers — let’s tackle them one by one.",
+        "Looks like some reviews mentioned delays and item mismatch. Want some tips to fix them?"
+      ]
+    },
+    {
+      "tag": "improvement_tips",
+      "patterns": ["How can I improve?", "Tips to increase sales", "Suggestions to improve my business"],
+      "responses": [
+        "You could try improving delivery speed, offering combos, and responding quickly to reviews.",
+        "Want to grow faster? Keep top items in stock and use trending promos — I can help you plan it."
+      ]
+    },
+    {
+      "tag": "promotion_ideas",
+      "patterns": ["How to boost sales?", "Promotion ideas?", "Any campaign suggestions?"],
+      "responses": [
+        "Try a 'Buy 1 Free 1' for slow-moving items, or discounts on top sellers during lunch hours.",
+        "Let’s run a campaign for your regulars — loyalty perks and flash sales work well!"
+      ]
+    },
+    {
+      "tag": "delivery_issues",
+      "patterns": ["Customers complain about delivery", "Late delivery problems", "Issues with delivery time"],
+      "responses": [
+        "You might want to tighten prep time or check rider availability during peak hours.",
+        "Delivery delays were mentioned a few times — let's look into optimizing your order handling flow."
+      ]
+    },
+    {
+      "tag": "product_quality",
+      "patterns": ["Customer says food is bad", "How to improve food quality?", "Low rating on product quality"],
+      "responses": [
+        "Food quality concerns came up. Maybe it’s time for a quick kitchen audit or retraining.",
+        "Consistent portion sizes and fresh ingredients make a big difference — need a checklist?"
+      ]
+    },
+    {
+      "tag": "merchant_profile",
+      "patterns": [
+        "Show my profile",
+        "What is my merchant info?",
+        "Tell me my store details",
+        "Give me my account summary"
+      ],
+      "responses": [
+        "Here’s your merchant profile: Name: [Your Name], Store: [Your Store], Location: [Your Area], Rating: [4.6⭐]",
+        "Got it! You're currently registered as [Store Name] at [Location]. Want to update anything?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Good support"],
+      "responses": [
+        "You're most welcome! Let me know if there's anything else you need.",
+        "Glad I could help! Let’s keep making your business stronger 💪"
+      ]
+    }
+  ]
+}
